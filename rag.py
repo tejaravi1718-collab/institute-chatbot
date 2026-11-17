@@ -20,6 +20,10 @@ SYSTEM_PROMPT = (
     "If the answer is not in the context, say you don't have that information "
     "and suggest contacting the institute office. "
     "Never invent fees, dates, timings or phone numbers. "
+    "Do not assume that a detail applies to a specific course, class or batch "
+    "unless the context says so. If the context gives general information "
+    "without naming the course, share it and say the document does not specify "
+    "it for that course. "
     "Keep answers short and clear."
 )
 
